@@ -1,7 +1,7 @@
 Name: hunspell-fo
 Summary: Faroese hunspell dictionaries
 Version: 0.4.1
-Release: 3%{?dist}
+Release: 4%{?dist}
 Source: http://fo.speling.org/filer/myspell-fo-%{version}.tar.bz2
 Group: Applications/Text
 URL: http://fo.speling.org/
@@ -44,6 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.1-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.1-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
